@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LightInject.AutoMoq</id>
+    <version>0.1.1</version>
+    <authors>Peppermint IT Limited</authors>
+    <owners>Peppermint IT Limited, Aaron Janes</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/apjanes/LightInject.AutoMoq/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A LightInject container implementation that automatically mocks un-registered dependencies using the Moq framework.</description>
+    <copyright>Copyright 2014 Peppermint IT Limited</copyright>
+	<dependencies>
+      <dependency id="LightInject" version="(3.0,)" />
+	  <dependency id="Moq" version="(4.0,)" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="bin\*.*" target="lib\net40" />
+  </files>
+</package>
