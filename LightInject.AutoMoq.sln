@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightInject.AutoMoq", "src\LightInject.AutoMoq.csproj", "{A359801F-2850-4A19-999C-49E2C8BB4ADB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{01057732-85E8-488C-88C6-19FDF3DA8A86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{288D4C21-D73D-474B-BCA6-D54D05E772B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightInject.AutoMoq.Tests", "tests\LightInject.AutoMoq.Tests.csproj", "{2694278B-43E3-4AAC-B0D0-3FAEA6814AF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A359801F-2850-4A19-999C-49E2C8BB4ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A359801F-2850-4A19-999C-49E2C8BB4ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A359801F-2850-4A19-999C-49E2C8BB4ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A359801F-2850-4A19-999C-49E2C8BB4ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2694278B-43E3-4AAC-B0D0-3FAEA6814AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2694278B-43E3-4AAC-B0D0-3FAEA6814AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2694278B-43E3-4AAC-B0D0-3FAEA6814AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2694278B-43E3-4AAC-B0D0-3FAEA6814AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A359801F-2850-4A19-999C-49E2C8BB4ADB} = {01057732-85E8-488C-88C6-19FDF3DA8A86}
+		{2694278B-43E3-4AAC-B0D0-3FAEA6814AF3} = {288D4C21-D73D-474B-BCA6-D54D05E772B3}
+	EndGlobalSection
+EndGlobal
