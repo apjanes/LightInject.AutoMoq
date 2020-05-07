@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Moq;
-using Moq.Proxy;
+using Moq.Internals;
 
 namespace LightInject.AutoMoq
 {
